@@ -1,0 +1,60 @@
+body {
+    text-align:center;
+    font-weight:bold;
+    background-image: url("coffee-laptop.jpg");
+    background-size:cover;
+}
+#heading {
+    width:100%;
+    background:#ffffff;
+}
+#logo-nav {
+    width:100%;
+    display:inline-flex;
+    justify-content: space-between;
+}
+#logo {
+    font-family: 'Cinzel Decorative', cursive;
+    margin:.25em;
+    font-size:2em;
+}
+
+.project-container {
+    display:inline-block; 
+}
+.project {
+    background:#ffffff;
+    margin:2em;
+    padding:2em;
+    border-radius:10px;
+    border:2px solid #b9852a;
+    box-shadow: 1px 1px 25px 12px #8c5221;
+}
+
+h1 {
+    margin:1em 0em;
+}
+
+h2 {
+    font-size:3em;
+    margin-top:0em;
+    margin-bottom:1em;
+}
+
+button {
+    border:none;
+    padding:10px 0px;
+    color:#ffffff;
+    font-weight:bold;
+    width:10em;
+    margin-bottom:5px;
+    border-radius:5px;
+}
+
+#increment-btn {
+    background:#234564;
+}
+
+#save-btn {
+    background:#240940;
+}
